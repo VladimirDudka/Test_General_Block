@@ -1,0 +1,15 @@
+C:\GeekBrains\General_block_test\bin\Debug\net7.0\General_block_test.exe
+C:\GeekBrains\General_block_test\bin\Debug\net7.0\General_block_test.deps.json
+C:\GeekBrains\General_block_test\bin\Debug\net7.0\General_block_test.runtimeconfig.json
+C:\GeekBrains\General_block_test\bin\Debug\net7.0\General_block_test.dll
+C:\GeekBrains\General_block_test\bin\Debug\net7.0\General_block_test.pdb
+C:\GeekBrains\General_block_test\obj\Debug\net7.0\General_block_test.csproj.AssemblyReference.cache
+C:\GeekBrains\General_block_test\obj\Debug\net7.0\General_block_test.GeneratedMSBuildEditorConfig.editorconfig
+C:\GeekBrains\General_block_test\obj\Debug\net7.0\General_block_test.AssemblyInfoInputs.cache
+C:\GeekBrains\General_block_test\obj\Debug\net7.0\General_block_test.AssemblyInfo.cs
+C:\GeekBrains\General_block_test\obj\Debug\net7.0\General_block_test.csproj.CoreCompileInputs.cache
+C:\GeekBrains\General_block_test\obj\Debug\net7.0\General_block_test.dll
+C:\GeekBrains\General_block_test\obj\Debug\net7.0\refint\General_block_test.dll
+C:\GeekBrains\General_block_test\obj\Debug\net7.0\General_block_test.pdb
+C:\GeekBrains\General_block_test\obj\Debug\net7.0\General_block_test.genruntimeconfig.cache
+C:\GeekBrains\General_block_test\obj\Debug\net7.0\ref\General_block_test.dll
