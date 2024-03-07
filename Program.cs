@@ -2,6 +2,20 @@
 //
 //
 //
+Console.Clear();
+Console.Write("Введите кол-во элементов массива : ");
+int amount = Convert.ToInt32(Console.ReadLine());
+
+string[] MakeStringArray(int a)
+{
+    string[] input_arr = new string[amount];
+    for (int i = 0; i < amount; i++)
+    {
+        Console.Write($"Введите {i + 1} элемент строкового массива : ");
+        input_arr[i] = Console.ReadLine();
+    }
+    return input_arr;
+}
 
 int AmountOfElements(string[] arr) // Метод подсчитывает кол-во элементов заданного размера.
 {
@@ -27,8 +41,6 @@ int AmountOfElements(string[] arr) // Метод подсчитывает кол
     return count;
 }
 
+//string[] MaxFixCharArray(string[] arr, int amountChar)
 
-
-
-string[] test = {"4g/x", "hasbdvojh", "541", "#%$&", "GIhj$3", "/4uhh76f", "4f", "*", "js9L4", "H"};
-Console.WriteLine(AmountOfElements(test));
+Console.WriteLine(AmountOfElements(MakeStringArray(amount)));
