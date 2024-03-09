@@ -1,22 +1,24 @@
-﻿//
-//
-//
-//
+﻿// Задача
+// 1. Создать string массив.
+// 2. Проверить массив на соответствие условию (ограничение по длинне каждого элемента массива)
+//    и создать новый из соответствующих элементов.
+// 3. Вывести на печать массив.
+
 Console.Clear();
 Console.Write("Введите кол-во элементов массива : ");
 int amount = Convert.ToInt32(Console.ReadLine()!);
 
-string[] MakeStringArray(int a) // Метод создаёт строчный массив на N заданных элементов
+string[] MakeStringArray(int a) // Метод создаёт строчный массив на N заданных элементов.
 {
-    string[] input_numeral = new string[a]; // Создаём массив из N элементов
-    for (int i = 0; i < a; i++) // С помощью цикла заполняем каждый элемент массива
+    string[] input_numeral = new string[a]; // Создаём массив из N элементов.
+    for (int i = 0; i < a; i++) // С помощью цикла заполняем каждый элемент массива.
     {
         Console.Write($"Введите {i + 1} элемент строкового массива : ");
         input_numeral[i] = Console.ReadLine()!;
     }
     return input_numeral;
 }
-string[] array = MakeStringArray(amount); // Созданный массив
+string[] array = MakeStringArray(amount); // Созданный string массив.
 
 Console.WriteLine("! По условию задачи максимальное значение равно 3, но можно ввести любое число!");
 Console.Write("Введите максимальное допустимое кол-во символов, в каждой строке массива : ");
