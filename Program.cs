@@ -12,11 +12,12 @@ string[] MakeStringArray(int a) // Метод создаёт строчный м
 {
     string[] input_numeral = new string[a]; // Создаём массив из N элементов.
     for (int i = 0; i < a; i++) // С помощью цикла заполняем каждый элемент массива.
-    {
-        Console.Write($"Введите {i + 1} элемент строкового массива : ");
-        input_numeral[i] = Console.ReadLine()!;
-    }
-    return input_numeral;
+        {
+            Console.Write($"Введите {i + 1} элемент строкового массива : ");
+            input_numeral[i] = Console.ReadLine()!;
+        }
+        return input_numeral;
+    
 }
 string[] array = MakeStringArray(amount); // Созданный string массив.
 
